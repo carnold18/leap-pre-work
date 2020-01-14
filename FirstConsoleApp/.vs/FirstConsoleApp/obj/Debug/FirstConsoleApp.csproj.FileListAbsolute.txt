@@ -1,0 +1,6 @@
+C:\Users\chris\Documents\Microsoft LEAP\Pre-Work\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Exercise Files\FirstConsoleApp\.vs\FirstConsoleApp\bin\Debug\FirstConsoleApp.exe.config
+C:\Users\chris\Documents\Microsoft LEAP\Pre-Work\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Exercise Files\FirstConsoleApp\.vs\FirstConsoleApp\bin\Debug\FirstConsoleApp.exe
+C:\Users\chris\Documents\Microsoft LEAP\Pre-Work\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Exercise Files\FirstConsoleApp\.vs\FirstConsoleApp\bin\Debug\FirstConsoleApp.pdb
+C:\Users\chris\Documents\Microsoft LEAP\Pre-Work\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Exercise Files\FirstConsoleApp\.vs\FirstConsoleApp\obj\Debug\FirstConsoleApp.csprojAssemblyReference.cache
+C:\Users\chris\Documents\Microsoft LEAP\Pre-Work\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Exercise Files\FirstConsoleApp\.vs\FirstConsoleApp\obj\Debug\FirstConsoleApp.exe
+C:\Users\chris\Documents\Microsoft LEAP\Pre-Work\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Ex_Files_C_Sharp_EssT_1_Syntax_OOP\Exercise Files\FirstConsoleApp\.vs\FirstConsoleApp\obj\Debug\FirstConsoleApp.pdb
