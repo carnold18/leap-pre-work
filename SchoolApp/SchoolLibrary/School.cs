@@ -73,7 +73,7 @@ namespace SchoolLibrary
             var sb = new StringBuilder();
             sb.AppendLine(Name);
             sb.AppendLine(Address);
-            sb.AppendLine(City);
+            sb.Append(City);
             sb.Append(", ");
             sb.Append(State);
             sb.Append(Zip);
