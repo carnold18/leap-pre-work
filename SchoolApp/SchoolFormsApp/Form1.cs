@@ -20,8 +20,20 @@ namespace SchoolFormsApp
         private void btnPushToTest_Click(object sender, EventArgs e)
         {
             var testSchool = new School();
-            testSchool.Name = "Central City High";
-            testSchool.TwitterAddress = "CentralCityHigh";
+            testSchool.Name = txtSchoolName.Text;
+            testSchool.Address = txtAddress.Text;
+            testSchool.City = txtCity.Text;
+            testSchool.State = txtState.Text;
+            testSchool.Zip = txtZip.Text;
+            testSchool.Number = txtPhoneNumber.Text;
+            try
+            {
+                testSchool.TwitterAddress = txtTwitter.Text;
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
         }
     }
 }

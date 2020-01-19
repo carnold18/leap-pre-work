@@ -53,7 +53,7 @@
             this.btnPushToTest.TabIndex = 0;
             this.btnPushToTest.Text = "btnPushToTest";
             this.btnPushToTest.UseVisualStyleBackColor = true;
-            this.btnPushToTest.Click += new System.EventHandler(this.button1_Click);
+            this.btnPushToTest.Click += new System.EventHandler(this.btnPushToTest_Click);
             // 
             // SchoolName
             // 
@@ -63,7 +63,7 @@
             this.SchoolName.Size = new System.Drawing.Size(118, 25);
             this.SchoolName.TabIndex = 1;
             this.SchoolName.Text = "School Name";
-            this.SchoolName.Click += new System.EventHandler(this.label1_Click_1);
+            // this.SchoolName.Click += new System.EventHandler(this.SchoolName_Click);
             // 
             // txtSchoolName
             // 
@@ -96,7 +96,7 @@
             this.City.Size = new System.Drawing.Size(42, 25);
             this.City.TabIndex = 1;
             this.City.Text = "City";
-            this.City.Click += new System.EventHandler(this.label3_Click);
+            // this.City.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtCity
             // 
