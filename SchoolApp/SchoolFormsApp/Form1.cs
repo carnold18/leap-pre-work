@@ -35,6 +35,8 @@ namespace SchoolFormsApp
             }
 
             MessageBox.Show(testSchool.ToString());
+
+            var student = new Student();
             
         }
     }
