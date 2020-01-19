@@ -36,7 +36,8 @@ namespace SchoolFormsApp
 
             MessageBox.Show(testSchool.ToString());
 
-            var student = new Student();
+            var student = new Student(); // testing purposes only - wanted to check that this could inherit from the Person class
+
             
         }
     }
