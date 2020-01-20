@@ -15,6 +15,8 @@ namespace SchoolLibrary
         
         // create a virtual method in the abstract class that can be used in subclasses or not
         // this can be used as is or overriden by another in the subclass
+        // the purpose of a virtual method is to take the base implementation and change it slightly 
+        // to fit the needs of the class on which it is called
         public virtual string SendMessage( string message)
         {
             var sb = new StringBuilder();
@@ -23,7 +25,7 @@ namespace SchoolLibrary
             sb.AppendLine("");
             sb.AppendLine("Dear " + FirstName + ",");
             sb.AppendLine(message);
-            // do not forget to conver the sb to type string when returning from the method
+            // do not forget to convert the sb to type string when returning from the method
             return sb.ToString();
         }
     }
