@@ -43,11 +43,13 @@
             this.txtPhoneNumber = new System.Windows.Forms.TextBox();
             this.Twitter = new System.Windows.Forms.Label();
             this.txtTwitter = new System.Windows.Forms.TextBox();
+            this.btnTestTeacher = new System.Windows.Forms.Button();
+            this.btnTestStudent = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnPushToTest
             // 
-            this.btnPushToTest.Location = new System.Drawing.Point(178, 659);
+            this.btnPushToTest.Location = new System.Drawing.Point(135, 659);
             this.btnPushToTest.Name = "btnPushToTest";
             this.btnPushToTest.Size = new System.Drawing.Size(156, 34);
             this.btnPushToTest.TabIndex = 0;
@@ -63,7 +65,6 @@
             this.SchoolName.Size = new System.Drawing.Size(118, 25);
             this.SchoolName.TabIndex = 1;
             this.SchoolName.Text = "School Name";
-            // this.SchoolName.Click += new System.EventHandler(this.SchoolName_Click);
             // 
             // txtSchoolName
             // 
@@ -96,7 +97,6 @@
             this.City.Size = new System.Drawing.Size(42, 25);
             this.City.TabIndex = 1;
             this.City.Text = "City";
-            // this.City.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtCity
             // 
@@ -170,9 +170,31 @@
             this.txtTwitter.Size = new System.Drawing.Size(150, 31);
             this.txtTwitter.TabIndex = 2;
             // 
+            // btnTestTeacher
+            // 
+            this.btnTestTeacher.Location = new System.Drawing.Point(388, 659);
+            this.btnTestTeacher.Name = "btnTestTeacher";
+            this.btnTestTeacher.Size = new System.Drawing.Size(154, 34);
+            this.btnTestTeacher.TabIndex = 3;
+            this.btnTestTeacher.Text = "Test Teacher";
+            this.btnTestTeacher.UseVisualStyleBackColor = true;
+            this.btnTestTeacher.Click += new System.EventHandler(this.btnTestTeacher_Click);
+            // 
+            // btnTestStudent
+            // 
+            this.btnTestStudent.Location = new System.Drawing.Point(634, 658);
+            this.btnTestStudent.Name = "btnTestStudent";
+            this.btnTestStudent.Size = new System.Drawing.Size(132, 34);
+            this.btnTestStudent.TabIndex = 4;
+            this.btnTestStudent.Text = "Test Student";
+            this.btnTestStudent.UseVisualStyleBackColor = true;
+            this.btnTestStudent.Click += new System.EventHandler(this.btnTestStudent_Click);
+            // 
             // Form1
             // 
             this.ClientSize = new System.Drawing.Size(855, 769);
+            this.Controls.Add(this.btnTestStudent);
+            this.Controls.Add(this.btnTestTeacher);
             this.Controls.Add(this.txtTwitter);
             this.Controls.Add(this.txtPhoneNumber);
             this.Controls.Add(this.Twitter);
@@ -211,6 +233,8 @@
         private System.Windows.Forms.TextBox txtPhoneNumber;
         private System.Windows.Forms.TextBox txtTwitter;
         private System.Windows.Forms.Button btnPushToTest;
+        private System.Windows.Forms.Button btnTestTeacher;
+        private System.Windows.Forms.Button btnTestStudent;
     }
 }
 
