@@ -43,6 +43,14 @@ B. Arrays & Collections
 
 C. Flow Control
 
+ - Control the flow of programming logic using `if` statements - this is the most basic way programmers control their logic. 
+ - When taking in input from a user for comparing in logic statements, always remember to factor in capitalization (using `ToLower()` or `ToUpper()`).
+ - Operators:
+   - `=` --> Assignment operator
+   - `==` --> Comparison operator
+ - Use `if`, `else if`, `else` when comparing more than 2 items. 
+ - Can also implement a `switch` statement when comparing multiple items with `cases`. A `break` is needed to signal the program to move onto the next case statement.
+
 D. Exception Handling
 
 E. Getting to Production
