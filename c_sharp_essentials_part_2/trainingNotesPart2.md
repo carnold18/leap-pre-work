@@ -54,7 +54,18 @@ C. Flow Control
    - Compound statement using `||` for **_OR_** and `&&` for **_AND_**.
    - The **_NOT _** operator `!=`.
  - There are three types of loops we can use in C#:
-   - 
+   - `For Loop`, using `i` as the incrementer. The for loop has three main parts: the variable declaration, the break point condition, and the incrementing value. When declaring a method, if you do not want it to return anything, use the `void` keyword. If it will return something, the type must be declared when defining the method. 
+   - `ForEach Loop`, used iterating over for IEnumerables (found in the `List` Collection)
+   - `Do/While Loop` - use a `do` loop if you want your code to run at least once before checking its condition, but use a `while` loop if you potentially want to never run your block of code within the loop.
+ - `break` and `continue` allow you to alter how a `loop` functions.
+   - `continue` stops the current scope of programming code (one iteration within a loop)
+   - `break` stops the entire looping iteration action
+ - To run your project in the `C# Interactive` terminal, do the following:
+   - Type `#r` + File URL + `Enter` in the terminal. Find the file URL by right-clicking on the Project in `Solution Explorer` and choosing `Open Folder in File Explorer`. Navigate to the `debug` directory.
+   - Then call the `namespace` to check that all public classes are avaible. 
+   - If access is incorrect, run `Rebuild` under the `Build` tab in the menu.
+
+![Terminal Testing Example](./assets/interactiveTerminalTesting.PNG)
 
 
 D. Exception Handling
