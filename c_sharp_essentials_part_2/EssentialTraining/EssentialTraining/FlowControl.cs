@@ -35,6 +35,7 @@ namespace EssentialTraining
         {
             return (color.ToLower() == "yellow");
         }
+        // Methods 5-7 all accomplish the same thing, comparing multiple items to the user input
         // Method 5 - if statements
         public string PrimarayOrSecondary(string color)
         {
@@ -83,6 +84,45 @@ namespace EssentialTraining
                     break;
             }
             return result;
+        }
+        // Method 7 - || OR operator to reduce code volume / lines of code
+        public string PrimaryOrSecondaryCompound(string color)
+        {
+            if (color.ToLower() == "red" || color.ToLower() == "blue" || color.ToLower() == "yellow")
+            {
+                return "Primary";
+            } else
+            {
+                return "Secondary";
+            }
+        }
+        // Method 8 - && AND operator
+        public string GradeLetter(int score)
+        {
+            if (score > 90)
+            {
+                return "A";
+            } else if (score > 79 && score < 90)
+            {
+                return "B";
+            } else if (score >= 70 && score <= 80)
+            {
+                return "C";
+            } else
+            {
+                return "F";
+            }
+        }
+        // Method 9
+        public string IsYourNameNotBruce(string yourName)
+        {
+            if (yourName.ToLower() != "bruce")
+            {
+                return "Can we call you Bruce for the sake of simplicity?!";
+            } else
+            {
+                return "Hello, Bruce!";
+            }
         }
     }
 }

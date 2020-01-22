@@ -48,8 +48,14 @@ C. Flow Control
  - Operators:
    - `=` --> Assignment operator
    - `==` --> Comparison operator
- - Use `if`, `else if`, `else` when comparing more than 2 items. 
- - Can also implement a `switch` statement when comparing multiple items with `cases`. A `break` is needed to signal the program to move onto the next case statement.
+ - Comparing multiple items:
+   - Use `if`, `else if`, `else` when comparing more than 2 items. 
+   - Can also implement a `switch` statement when comparing multiple items with `cases`. A `break` is needed to signal the program to move onto the next case statement.
+   - Compound statement using `||` for **_OR_** and `&&` for **_AND_**.
+   - The **_NOT _** operator `!=`.
+ - There are three types of loops we can use in C#:
+   - 
+
 
 D. Exception Handling
 
