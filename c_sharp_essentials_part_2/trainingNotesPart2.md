@@ -13,7 +13,7 @@ B. Arrays & Collections
  - **Arrays** in C# are just like arrays in other languages, a collection of items (list) of the same type - strongly typed language.
  - They are a fixed length, where items are assigned based on position.
 
- ![Array](./assets/arrayDeclaration.png)
+ ![Array](./assets/arrayDeclaration.PNG)
 
  - `ref` allows you to pass in an item by reference. Usually items are passed in by value, meaning the program makes a copy of the original item and muttates the copy. Passing by reference means the original item is actually mutated. 
  - Create a constructor for a class using the shortcut: `ctor` + `Tab` + `Tab`.
@@ -33,7 +33,7 @@ B. Arrays & Collections
     - Executed as a set of extension classes.
     - Adds functionality into an exsiting class without altering the original class code or creating a sub-class.
 
-![LINQ](./assets/linq.png)
+![LINQ](./assets/linq.PNG)
 
  - **Dictionaries** use a key:value pair to assign a value to a designated variable / key. The types of both the key and the value must be declared when initialized.
 
