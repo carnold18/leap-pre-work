@@ -17,6 +17,7 @@ B. ARRAYS & COLLECTION
 
  - `ref` allows you to pass in an item by reference. Usually items are passed in by value, meaning the program makes a copy of the original item and muttates the copy. Passing by reference means the original item is actually mutated. 
  - Create a constructor for a class using the shortcut: `ctor` + `Tab` + `Tab`.
+ - When testing a method, the test class must include the `[TestMethod]` decorator as a flag for the program to know to run the method.
  - 
 
 C. FLOW CONTROL
