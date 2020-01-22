@@ -33,7 +33,7 @@ B. Arrays & Collections
     - Executed as a set of extension classes.
     - Adds functionality into an exsiting class without altering the original class code or creating a sub-class.
 
-![LINQ](./assets/linq)
+![LINQ](./assets/linq.png)
 
  - **Dictionaries** use a key:value pair to assign a value to a designated variable / key. The types of both the key and the value must be declared when initialized.
 
