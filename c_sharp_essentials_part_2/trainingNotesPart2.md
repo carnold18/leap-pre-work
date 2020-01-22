@@ -70,4 +70,19 @@ C. Flow Control
 
 D. Exception Handling
 
+ - A runtime exception is one that the compiler can't catch. 
+ - Syntax errors will be raised as warnings by VSCode and the compiler will catch them. Pro-tip: if there's a series of Warnings in the console, check the first one and try to fix this one - it will usually clear the remaining warnings. 
+ - Unit testing exists to prevent / catch runtime exceptions.
+ - Code in a defensive way, try to catch exceptions / mistakes as you code --> `try` and `catch`:
+   - `try` keyword will attempt to execute all the statements within its block.
+   - `catch` keyword will run if a section of the code in the `try` block does not successfully execute. Pass the Error Name in as the argument to this.
+      - `catch (System.IO.DirectoryNotFoundException ex)`
+      - `catch (Exception ex)`
+   - `using` block can be implemented to read from a file.
+      - Need to add `using System.IO` to use file reading methods.
+      - Pass in a new instance of the `StreamReader` class.
+      - `StreamReader` takes an argument of the file path in `""`. Be careful with the `\` because this triggers a break point (escape character), so either use a `@` before the file path or use `\\` in place of the `\`.
+   -  Great for testing database or network connections to be sure that all connections are accounted for and closed.
+ - `IDisposable interface` is used for things built using external resources (connecting to databases / reading files) for garbage collection.
+
 E. Getting to Production
