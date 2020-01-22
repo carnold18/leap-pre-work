@@ -86,3 +86,14 @@ D. Exception Handling
  - `IDisposable interface` is used for things built using external resources (connecting to databases / reading files) for garbage collection.
 
 E. Getting to Production
+
+ - Before taking an application to production, write a logging package.
+   - PyPy for Python
+   - NPM for Node.js
+   - NuGet for .NET
+ - NLog
+   - Use this to log output, can be used to distinguish between production and development phases.
+   - `Trace` is the lowest && `Fatal` is the highest.
+   - These log to a log file NOT the console (which is the purpose of WriteLine)
+   - You will need to go into the NLog config file to add targets and rules (some are already included and just commented out right off the bat).
+ - When compiling in `Debug`, there are efficiency differences when compared to compiling in `Release` mode. So when running for personal testing purposes, run in `Debug` mode, but for production, change it to `Release`. The Releease mode requires a specific `.NET` runtime.
