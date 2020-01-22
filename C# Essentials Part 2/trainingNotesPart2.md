@@ -13,7 +13,7 @@ B. ARRAYS & COLLECTION
  - Arrays in C# are just like arrays in other languages, a collection of items (list) of the same type - strongly typed language.
  - They are a fixed length, where items are assigned based on position.
 
- ![Array](./assets/arrayDeclaration.png)
+ ![Array](./assets/arrayDeclaration)
 
  - `ref` allows you to pass in an item by reference. Usually items are passed in by value, meaning the program makes a copy of the original item and muttates the copy. Passing by reference means the original item is actually mutated. 
  - Create a constructor for a class using the shortcut: `ctor` + `Tab` + `Tab`.
